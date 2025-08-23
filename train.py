@@ -26,5 +26,8 @@ if __name__ == "__main__":
     Yamaha = Moto("R10", "V5")
     Bmw = Vehicle("XM", "V10")
     
+    if Yamaha.engine == "V5":
+        print("That car isn't not my type.")
+    
     print(Bmw)
     print(Yamaha)
